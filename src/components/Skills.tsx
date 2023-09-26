@@ -23,9 +23,25 @@ function Carousel({data, direction}: { data: ISkillData[], direction: boolean })
     return (    
     <Swiper
         className='carousel'
+        breakpoints={{
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 15,
+            },
+            1440: {
+                slidesPerView: 5,
+                spaceBetween: 15,
+            },
+        }}
         modules={[Autoplay]}
-        slidesPerView={4}
-        spaceBetween={15}
         loop={true}
         autoplay={{
             reverseDirection: direction,
