@@ -56,7 +56,7 @@ const Block = styled.div`
 
 export default function Welcome() {
   return (
-    <Wrapper>
+    <Wrapper id='about'>
         <Block>
             <MainTitle
                 initial={{ opacity: 0, y: 20 }}

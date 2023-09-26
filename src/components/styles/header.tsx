@@ -82,7 +82,7 @@ function Header() {
             <NavItem to={ROOT_PAGE}>About me</NavItem>
           </StyledListItem>
           <StyledListItem>
-            <NavItem to={ROOT_PAGE}>Item 1</NavItem>
+            <NavItem to={ROOT_PAGE}>Skills</NavItem>
           </StyledListItem>
           <StyledListItem>
             <NavItem to={ROOT_PAGE}>Item 1</NavItem>

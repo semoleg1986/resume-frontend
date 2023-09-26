@@ -1,3 +1,4 @@
+import GetRequestExample from "../components/Skills";
 import Welcome from "../components/styles/welcome";
 
 function Home() {
@@ -5,6 +6,7 @@ function Home() {
     <>
       <div className="container">
         <Welcome />
+        <GetRequestExample />
       </div>
     </>
   );
