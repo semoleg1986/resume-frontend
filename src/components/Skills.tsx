@@ -26,13 +26,13 @@ function Carousel({data, direction}: { data: ISkillData[], direction: boolean })
         breakpoints={{
             320: {
                 slidesPerView: 2,
-                spaceBetween: 10,
+                spaceBetween: 15,
             },
-            640: {
+            560: {
                 slidesPerView: 3,
                 spaceBetween: 15,
             },
-            768: {
+            640: {
                 slidesPerView: 4,
                 spaceBetween: 15,
             },
