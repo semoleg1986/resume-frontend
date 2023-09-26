@@ -3,3 +3,7 @@
 .carousel {
     margin-bottom: 1.5rem;
 }
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+  }
