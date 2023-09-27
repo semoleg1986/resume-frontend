@@ -72,7 +72,7 @@ function GetRequestExample() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://resume-backend-production-62de.up.railway.app/skills/');
+        const response = await axios.get('https://resume-backend-a8yzqz434-semoleg1986.vercel.app/skills/');
 
         console.log(data)
         setData(response.data);
